@@ -13,6 +13,7 @@ THREADS=8
 echo "MAKING BINARIES"
 make
 cp ./data/stopwords.assoc ./
+cp ./data/mwe.list ./
 
 echo ""
 echo "DOWNLOADING TRAINING CONLL DATA"
